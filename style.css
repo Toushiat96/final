@@ -6,7 +6,7 @@ header {
 	color: #ffffffe6;
 	text-align: center;
 	margin-top:  30px;
-	padding:10px 30px;
+	padding:10px 10px;
 	
 }
 #navLinks{
@@ -90,7 +90,7 @@ font-weight: bold;
 
 }
 .single{
-margin-top:720px;
+margin-top:810px;
 }
 
 .txt{
@@ -219,3 +219,22 @@ color: #FFE714;
         margin-top: 22px;
     }
   }
+  
+  
+  
+  /* image css */
+  
+  .image img{
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card1{
+  background-color:yellow;
+  color: #008DC2;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px red;
+  }
+   .hyper{
+  text-decoration: none!important;
+   }
