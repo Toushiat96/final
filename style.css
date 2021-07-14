@@ -230,11 +230,59 @@ color: #FFE714;
   }
   
   .card1{
-  background-color:yellow;
-  color: #008DC2;
-  border-radius: 30px;
-  box-shadow: 10px 5px 5px red;
+    
+    border-radius: 10px 15px;
+    box-shadow: 10px 5px 5px;
+    margin: 10px;
+    
   }
-   .hyper{
-  text-decoration: none!important;
-   }
+  
+  .card1 a {
+    display: block;
+    text-decoration: none;
+    background-color: #008DC2;
+    color: #fff;
+  }
+   
+   
+   /* Payment card section */
+   
+   .card {
+    background-color: #008DC2;
+color: #fff;
+border-radius: 30px;
+box-shadow: 10px 5px 5px;
+margin: 10px;
+height: 160px;
+  }
+  
+  
+
+  .card:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+    border-radius: 15px;
+    box-shadow:  10px 10px 30px#7AB259, 
+             -10px -10px 30px #FBD062;
+  }
+  
+  .signup{
+    text-decoration: none;
+	background: #e32a2a;
+	color: #FFF !important;
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-top: 10px;
+	/* display: inline-block; */
+	font-weight: 600;
+    margin-left:45%;
+    margin-right:25%;
+  }
+  
+  @media(max-width: 584px){
+  .signup{
+    margin-left:25%;
+    margin-right:25%;
+  }
+  
+  }
